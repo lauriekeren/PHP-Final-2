@@ -1,0 +1,152 @@
+header {
+  padding: 30px;
+  text-align: center;
+  background: #484c89;
+  color: white;
+  font-size: 30px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484c89;
+    margin: 0;
+     min-height: 400px;
+   margin-bottom: 120px;
+}
+main {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+ 
+    margin-top: 20px;
+   
+}
+h1 {text-align: center;}
+a:link {
+  color: #aeb2d5;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: purple;
+} 
+form {
+    margin: auto;
+}
+label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-size: 110%;
+}
+#loan_info input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+}
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+    padding: 1em;
+    background: #484c89;
+    border: 0;
+    color: white;
+    width: 97px;
+    border-radius: 10px;
+}
+br {
+    clear: left;
+}
+.error {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 150%;
+    font-family: Times New Roman;
+    border: solid 1px #aeb2d5;
+    border-radius: 5px;
+    width: 30%;
+}
+table {
+	border: 2px solid #484c89;
+	padding: 10px;
+	background: #F5F5FC;
+}
+tr, td, th 
+{
+    padding: .3em .7em .3em .7em;
+    vertical-align: top;
+    text-align: center;
+}
+.rightimage {
+  float: right;
+  margin-right: 20%;
+}
+.leftimage {
+  margin-left: 5%;
+}
+tr:nth-child(even) {background: #aeb2d5;}
+tr:nth-child(odd) {background: #F5F5FC;}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #484c89;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  height: 50px;
+  font-size: 70%;
+}
+fieldset {
+padding-top: 15px;
+background: #F5F5FC;
+border: 2px solid #484c89;
+}
+
+#reset {
+	float: none;
+	margin-left: 10px;
+}
+.left {
+    float: left;
+    width: 30%;
+}
+.right {
+    margin-left: -80%;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #484c89;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #484c89;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
