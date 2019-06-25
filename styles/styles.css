@@ -1,0 +1,160 @@
+header {
+  padding: 30px;
+  text-align: center;
+  background: #484c89;
+  color: white;
+  font-size: 30px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #484c89;
+    margin: 0;
+     min-height: 400px;
+   margin-bottom: 120px;
+}
+main {
+    display: block;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1em;
+   
+}
+
+form {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #F5F5FC;
+    border: 2px solid #484c89;
+    margin-top: 20px;
+}
+a:link {
+  color: #aeb2d5;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: purple;
+} 
+
+label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-top: 8px;
+    padding-left: 40px;
+    font-size: 110%;
+}
+
+input {
+    float: left;
+    margin-bottom: .5em;
+    font-size: 100%;
+    padding: 5px;
+    border: none;
+    width: 50%;
+    
+}
+#loan_length {
+	width: 35%;
+}
+::placeholder {
+  color: #484c89;
+  opacity: .5; /* Firefox */
+  font-size: 100%;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #484c89;
+ font-size: 100%;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #484c89;
+ font-size: 100%;
+}
+select{
+margin-bottom: .5em;
+   border: none;
+    font-size: 90%;
+    color: #484c89;
+    padding: 5px;
+}
+
+
+#buttons input {
+    float: left;
+    margin-bottom: .5em;
+    padding: .5em;
+    background: #484c89;
+    border: 0;
+    color: white;
+    width: 52%;
+}
+br {
+    clear: left;
+}
+.error {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
+    font-family: Times New Roman;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #484c89;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  height: 50px;
+  font-size: 70%;
+}
+.dollar_sign {
+	float: right;
+	margin-right: -15px;
+	
+}
+.percent {
+ width: 10em;
+   
+   
+    padding-top: 25px;
+    padding-left: 5px;
+    font-size: 140%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #484c89;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #484c89;
+  color: #fff;
+  //text-align: center;
+  margin-left: 5px;
+  border-radius: 6px;
+  padding: 10px;
+
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
